@@ -1,0 +1,16 @@
+{
+    "name": "index-populator",
+    "version": "1.0.0",
+    "description": "Create an index.ts file per each folder of a typescript project",
+    "main": "index.js",
+    "author": "jlberrocal",
+    "license": "MIT",
+    "preferGlobal": true,
+    "bin": {
+        "index-populator": "index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jlberrocal/index-populator"
+    }
+}
