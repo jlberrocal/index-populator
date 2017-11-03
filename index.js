@@ -17,5 +17,5 @@ function createIndexFile(filePath) {
         }
     });
     if (!fs.existsSync(path.join(filePath, 'index.ts')))
-        fs.writeFileSync(path.join(filePath, 'index.ts'), files.filter(file => file.endsWith('.ts')).map(file => `export * from './${file.replace(/\.ts$/, '')}';`).join('\n'));
+        fs.writeFileSync(path.join(filePath, 'index.ts'), files.filter(file => file.endsWith('.ts') || file.indexOf('.') == -1).map(file => `export * from './${file.replace(/\.ts$/, '')}';`).join('\n'));
 }
