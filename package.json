@@ -2,6 +2,14 @@
     "name": "index-populator",
     "version": "1.0.1",
     "description": "Create an index.ts file per each folder of a typescript project",
+    "keywords": [
+        "indexPopulator",
+        "index.ts",
+        "createIndex",
+        "Node",
+        "NodeJS",
+        "Typescript"
+    ],
     "main": "index.js",
     "author": "jlberrocal",
     "maintainers": [
