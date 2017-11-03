@@ -1,6 +1,6 @@
 {
     "name": "index-populator",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Create an index.ts file per each folder of a typescript project",
     "keywords": [
         "indexPopulator",
